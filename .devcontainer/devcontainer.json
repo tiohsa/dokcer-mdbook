@@ -1,0 +1,44 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/alpine
+{
+  "name": "mdbook",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "dockerFile": "Dockerfile",
+  "features": {},
+
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
+
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  // "postCreateCommand": "uname -a",
+
+  // Configure tool-specific properties.
+  // "taichi.vscode-textlint",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "yzhang.markdown-all-in-one",
+        "yzane.markdown-pdf",
+        "DavidAnson.vscode-markdownlint",
+        "shd101wyy.markdown-preview-enhanced",
+        "marp-team.marp-vscode",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "csholmq.excel-to-markdown-table",
+        "stevensona.character-count",
+        "sgryjp.japanese-word-handler",
+        "pdconsec.vscode-print",
+        "gera2ld.markmap-vscode",
+        "fabiospampinato.vscode-highlight",
+        "mushan.vscode-paste-image",
+        "mdickin.markdown-shortcuts",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+}
